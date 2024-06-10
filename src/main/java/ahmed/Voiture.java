@@ -21,13 +21,21 @@ public class Voiture {
         this.prix   = prix;
     }
 
-    public String getMarque(){ return marque; }
+    public String getMarque(){
+        return marque;
+    }
 
-    public void setMarque(String marque) { this.marque = marque; }
+    public void setMarque(String marque) {
+        this.marque = marque;
+    }
 
-    public double getPrix() { return prix; }
+    public double getPrix() {
+        return prix;
+    }
 
-    public void setPrix(double prix) { this.prix = prix; }
+    public void setPrix(double prix) {
+        this.prix = prix;
+    }
 
     @Override
     public String toString(){
